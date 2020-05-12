@@ -31,22 +31,28 @@ Some of the 800 generated aliases are:
 
 ```sh
 alias k='kubectl'
-alias kg='kubectl get'
-alias kgpo='kubectl get pod'
+alias kctx=kubectl-ctx
+alias kns=kubectl-ns
 
-alias ksysgpo='kubectl --namespace=kube-system get pod'
-
-alias krm='kubectl delete'
-alias krmf='kubectl delete -f'
-alias krming='kubectl delete ingress'
-alias krmingl='kubectl delete ingress -l'
-alias krmingall='kubectl delete ingress --all-namespaces'
-
-alias kgsvcoyaml='kubectl get service -o=yaml'
-alias kgsvcwn='watch kubectl get service --namespace'
-alias kgsvcslwn='watch kubectl get service --show-labels --namespace'
-
-alias kgwf='watch kubectl get -f'
+alias kgpo='kubectl get pods'
+alias kdpo='kubectl describe pods'
+alias krmpo='kubectl delete pods'
+alias kgdep='kubectl get deployment'
+alias kddep='kubectl describe deployment'
+alias kgsvc='kubectl get service'
+alias kdsvc='kubectl describe service'
+alias kging='kubectl get ingress'
+alias kding='kubectl describe ingress'
+alias kgcm='kubectl get configmap'
+alias kdcm='kubectl describe configmap'
+alias krmcm='kubectl delete configmap'
+alias kgsec='kubectl get secret'
+alias kdsec='kubectl describe secret'
+alias kgno='kubectl get nodes'
+alias kdno='kubectl describe nodes'
+alias kgns='kubectl get namespaces'
+alias kdns='kubectl describe namespaces'
+alias krmns='kubectl delete namespaces'
 ...
 ```
 
@@ -54,7 +60,7 @@ See [the full list](.kubectl_aliases).
 
 ### Installation
 
-You can directly download the [`.kubectl_aliases` file](https://rawgit.com/ahmetb/kubectl-alias/master/.kubectl_aliases)
+You can directly download the [`.kubectl_aliases` file](https://rawgit.com/jijeesh/kubectl-alias/master/.kubectl_aliases)
 and save it in your $HOME directory, then edit your .bashrc/.zshrc file with:
 
 ```sh
@@ -110,7 +116,7 @@ command yourself in your .bashrc/.zshrc.
 
 ### Authors
 
-- [@ahmetb](https://twitter.com/ahmetb)
+
 
 -----
 
