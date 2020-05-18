@@ -1,3 +1,29 @@
+#Install zsh
+```
+sudo apt install zsh
+sudo apt-get install powerline fonts-powerline
+```
+# install ohmyzsh (https://github.com/ohmyzsh/ohmyzsh)
+```
+curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+sh install.sh
+```
+Set up a bira theme for your Terminal - Open .zshrc File using nano editor
+```
+nano .zshrc
+```
+Find the line ZSH_THEME="robbyrussell" replace robbyrussell with bira theme in .zshrc
+
+```
+ZSH_THEME="bira"
+```
+Change your Default Shell
+```
+chsh -s /bin/zsh
+```
+You need to set custom path to .zshrc file instead of .bashrc
+now logout and login.
+
 # Install Krew
 Krew is the plugin manager for kubectl command-line tool
 installation (https://krew.sigs.k8s.io/docs/user-guide/setup/install/)
