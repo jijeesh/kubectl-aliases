@@ -22,6 +22,8 @@ alias kns=kubectl-ns
 
 alias kgpo='kubectl get pods'
 alias kdpo='kubectl describe pods'
+alias kex='kubectl exec -i -t'
+alias klo='kubectl logs -f'
 alias krmpo='kubectl delete pods'
 alias kgdep='kubectl get deployment'
 alias kddep='kubectl describe deployment'
