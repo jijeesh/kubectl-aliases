@@ -107,6 +107,7 @@ function kubectl() { echo "+ kubectl $@"; command kubectl $@; }
 * commands:
   * **`g`**=`get`
   * **`d`**=`describe`
+  * **`e`**=`edit`
   * **`rm`**=`delete`
   * **`a`**:`apply -f`
   * **`ex`**: `exec -i -t`
