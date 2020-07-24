@@ -20,6 +20,11 @@ complete -F __start_kubectl k
 alias kctx=kubectl-ctx
 alias kns=kubectl-ns
 
+alias kg='kubectl get'
+alias krm='kubectl delete'
+alias kdpo='kubectl describe'
+alias kepo='kubectl edit'
+
 alias kgpo='kubectl get pods'
 alias kdpo='kubectl describe pods'
 alias kepo='kubectl edit pods'
