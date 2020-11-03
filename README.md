@@ -44,6 +44,7 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 ```
 kubectl krew install ctx
 kubectl krew install ns
+kubectl krew install node-shell
 ```
 
 # kubectl-aliases
@@ -57,7 +58,7 @@ Some of the 800 generated aliases are:
 
 ```sh
 alias k='kubectl'
-alias kctx=kubectl-ctx
+alias kctx=kubectl-
 alias kns=kubectl-ns
 
 alias kgpo='kubectl get pods'
