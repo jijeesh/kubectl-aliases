@@ -23,7 +23,8 @@ chsh -s /bin/zsh
 ```
 You need to set custom path to .zshrc file instead of .bashrc
 now logout and login.
-
+# Auto suggestions
+https://github.com/zsh-users/zsh-autosuggestions
 # Install Krew
 Krew is the plugin manager for kubectl command-line tool
 installation (https://krew.sigs.k8s.io/docs/user-guide/setup/install/)
