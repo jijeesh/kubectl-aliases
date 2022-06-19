@@ -19,6 +19,7 @@ ZSH_THEME="jijeeshMacOS"
 ```
 Change your Default Shell
 ```
+in linux only
 chsh -s /bin/zsh
 ```
 You need to set custom path to .zshrc file instead of .bashrc
@@ -34,7 +35,8 @@ cd ..
 rm -rf fonts
 Apple Terminal: Open Terminal → Preferences → Profiles → Text, click Change under Font and select MesloLGS NF family.
 ```
-<img width="641" alt="image" src="https://user-images.githubusercontent.com/8288856/174468406-677b1bc9-9c4e-48b0-9854-c2d384647e06.png">
+<img width="639" alt="image" src="https://user-images.githubusercontent.com/8288856/174477926-076ef3a4-1dea-406e-b388-d0cc5ead5d08.png">
+
 
 Change settings for vscode
 How?
@@ -60,6 +62,9 @@ Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
 ```
 plugins=( 
     # other plugins...
+    zgit
+    macos
+    kubectl
     zsh-autosuggestions
 )
 ```
