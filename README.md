@@ -1,5 +1,6 @@
 #Install zsh
 ```
+ubuntu linux only
 sudo apt install zsh
 sudo apt-get install powerline fonts-powerline
 ```
