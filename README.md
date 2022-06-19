@@ -5,7 +5,7 @@ sudo apt-get install powerline fonts-powerline
 ```
 # install ohmyzsh (https://github.com/ohmyzsh/ohmyzsh)
 ```
-curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+curl -Lo install.sh [https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh](https://raw.githubusercontent.com/jijeesh/ohmyzsh/macOS/tools/install.sh)
 sh install.sh
 ```
 Set up a bira theme for your Terminal - Open .zshrc File using nano editor
