@@ -36,6 +36,19 @@ Apple Terminal: Open Terminal → Preferences → Profiles → Text, click Chang
 ```
 <img width="641" alt="image" src="https://user-images.githubusercontent.com/8288856/174468406-677b1bc9-9c4e-48b0-9854-c2d384647e06.png">
 
+Change settings for vscode
+How?
+open vscode
+open Command Pallete (Short Cut: F1)
+type settings and Select Preferences: Open Settings (JSON)
+Add or Edit below settings to Settings JSON file
+```
+"terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+"terminal.integrated.defaultProfile.osx": "zsh"
+```
+Save.
+That's all
+
 now logout and login.
 # Auto suggestions
 https://github.com/zsh-users/zsh-autosuggestions
