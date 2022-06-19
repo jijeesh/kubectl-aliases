@@ -15,13 +15,27 @@ nano .zshrc
 Find the line ZSH_THEME="robbyrussell" replace robbyrussell with bira theme in .zshrc
 
 ```
-ZSH_THEME="bira"
+ZSH_THEME="jijeeshMacOS"
 ```
 Change your Default Shell
 ```
 chsh -s /bin/zsh
 ```
 You need to set custom path to .zshrc file instead of .bashrc
+
+```
+# clone
+git clone https://github.com/powerline/fonts.git --depth=1
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+Apple Terminal: Open Terminal → Preferences → Profiles → Text, click Change under Font and select MesloLGS NF family.
+```
+<img width="641" alt="image" src="https://user-images.githubusercontent.com/8288856/174468406-677b1bc9-9c4e-48b0-9854-c2d384647e06.png">
+
 now logout and login.
 # Auto suggestions
 https://github.com/zsh-users/zsh-autosuggestions
