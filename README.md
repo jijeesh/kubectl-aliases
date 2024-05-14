@@ -16,7 +16,7 @@ nano .zshrc
 Find the line ZSH_THEME="robbyrussell" replace robbyrussell with bira theme in .zshrc
 
 ```
-ZSH_THEME="jijeeshMacOS"
+ZSH_THEME="jijeesh"
 ```
 Change your Default Shell
 ```
